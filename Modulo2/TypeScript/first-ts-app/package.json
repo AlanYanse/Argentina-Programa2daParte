@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.0"
+  },
+  "name": "first-ts-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server -p 8436"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
