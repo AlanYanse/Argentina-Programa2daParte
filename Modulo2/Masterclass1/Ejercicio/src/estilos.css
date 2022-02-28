@@ -1,0 +1,48 @@
+
+body{
+  background-color: black;
+}
+
+.container{
+  width: 1000px;
+  height: 1200px;
+  background-color: #292929;
+  margin: 0 auto;
+}
+
+#banner{
+  width: 1000px;
+  height: 300px;
+  background-color: orange;
+}
+
+#menu{
+  width: 1000px;
+  height: 50px;
+  background-color: gray;
+}
+
+#imagenCentral{
+  width: 900px;
+  height: 300px;
+  background-color: #C89B9B;
+  margin: 25px 50px;
+}
+
+#articulo1 , #articulo2{
+  width: 425px;
+  height: 425px;
+  background-color: #B4B2B2;
+  float: left; 
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+#footer{
+  width: 1000px;
+  height: 100px;
+  background-color: #A21717;
+  clear: both;
+}
+
+
