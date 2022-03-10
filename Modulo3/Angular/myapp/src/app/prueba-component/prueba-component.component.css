@@ -1,0 +1,11 @@
+p {
+    font-family: Lato;
+  }
+
+  .click{
+    padding:5px;
+    border-style: solid;
+    border-color: blue;
+    max-width: fit-content;
+    cursor: pointer;
+  }
