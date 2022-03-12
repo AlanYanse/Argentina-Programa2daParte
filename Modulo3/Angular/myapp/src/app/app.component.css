@@ -1,5 +1,14 @@
 
+#app-component{
+  border-style: solid;
+  border-color: red;
+}
+
 h1{
   color: red;
   font-size: 36px;
+}
+
+img { 
+  max-width: 500px; 
 }

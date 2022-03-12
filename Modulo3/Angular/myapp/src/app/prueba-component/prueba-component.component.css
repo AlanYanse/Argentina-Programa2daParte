@@ -9,3 +9,8 @@ p {
     max-width: fit-content;
     cursor: pointer;
   }
+
+#prueba-component{
+  border-style: solid;
+  border-color: black;
+}

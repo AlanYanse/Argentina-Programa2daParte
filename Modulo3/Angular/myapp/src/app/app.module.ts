@@ -6,6 +6,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { PruebaComponent } from "./prueba-component/prueba-component.component"
+import { CatService } from './shared/cat.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,7 +19,9 @@ import { PruebaComponent } from "./prueba-component/prueba-component.component"
     FormsModule
     
   ],
-  providers: [],
+  providers: [
+    CatService,
+  ],
   bootstrap: [AppComponent]
   
 })
