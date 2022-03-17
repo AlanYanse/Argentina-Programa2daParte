@@ -10,6 +10,7 @@ import { CatService } from './shared/cat.service';
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponentComponent } from './not-found-component/not-found-component.component';
 import { HomeComponent } from './home-component/home.component';
+import { FooterComponentComponent } from './footer-component/footer-component.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { HomeComponent } from './home-component/home.component';
     PruebaComponent,
     NotFoundComponentComponent,
     HomeComponent,
+    FooterComponentComponent,
     
   ],
   imports: [
