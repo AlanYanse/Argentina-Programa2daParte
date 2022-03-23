@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './componentes/header/header.component';
-import { ButtonComponent } from './components/button/button.component'; // Lo importó directamente vsc
+import { HeaderComponent } from './componentes/header/header.component'; // Lo importó directamente vsc
+import { ButtonComponent } from './componentes/button/button.component'; // Lo importó directamente vsc con un pequeño bug
 
 
 @NgModule({
