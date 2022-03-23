@@ -1,6 +1,6 @@
-#container{
-    border-style: solid;
-    border-radius: 10px;
-    border-color: blue;
-    padding: 25px;
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 20px;
 }
