@@ -6,13 +6,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component'; // Lo importó directamente vsc
 import { ButtonComponent } from './componentes/button/button.component'; // Lo importó directamente vsc con un pequeño bug
+import { TasksComponent } from './componentes/tasks/tasks.component'; // Lo importó directamente vsc
+import { TasksItemComponent } from './componentes/tasks-item/tasks-item.component';  // Lo importó directamente vsc
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
-    ButtonComponent // Lo registró automáticamente vsc
+    HeaderComponent, // Lo registró automáticamente vsc
+    ButtonComponent, // Lo registró automáticamente vsc
+    TasksComponent,  // Lo registró automáticamente vsc
+    TasksItemComponent // Lo registró automáticamente vsc
     
   ],
   imports: [
