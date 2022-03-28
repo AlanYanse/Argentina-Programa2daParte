@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { TASKS } from 'src/app/mock-tasks'; // Importando la lista de tareas que simula ser una base de datos
-import { Task } from 'src/app/Task'; // Importando la interfaz de las tareas
+import { TaskService } from 'src/app/service/task.service';
+import { Task } from 'src/app/Task';
 
 
 @Component({
@@ -10,11 +10,15 @@ import { Task } from 'src/app/Task'; // Importando la interfaz de las tareas
 })
 export class TasksComponent implements OnInit {
 
-  tasks: Task[] = TASKS;
+  tasks: Task[] = [];
 
-  constructor() { }
+  constructor(private taskService : TaskService) { }
 
   ngOnInit(): void {
+    // Like promise
+    this.taskService.getTask().subscribe((task) => {
+      this.tasks = task;
+    } );
   }
 
 }
