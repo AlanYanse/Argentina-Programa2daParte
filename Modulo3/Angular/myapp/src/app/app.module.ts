@@ -9,6 +9,7 @@ import { ButtonComponent } from './componentes/button/button.component'; // Lo i
 import { TasksComponent } from './componentes/tasks/tasks.component'; // Lo importó directamente vsc
 import { TasksItemComponent } from './componentes/tasks-item/tasks-item.component'; //Lo importó directamente vsc
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';  // Lo importó directamente vsc
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';  // Lo imp
     BrowserModule,
     FormsModule,
     FontAwesomeModule, // Lo registró automáticamente vsc
+    HttpClientModule
     
     
   ],
