@@ -18,4 +18,10 @@ export class TaskService {
     
   }
 
+  deleteTask(task : Task) : Observable <Task>{
+
+    this.apiUrl = `${this.apiUrl}/${task.id}`;
+    return this.http.delete<Task>(this.apiUrl);  // Para eliminar
+  }
+
 }
