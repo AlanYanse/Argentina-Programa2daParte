@@ -10,6 +10,7 @@ import { TasksComponent } from './componentes/tasks/tasks.component'; // Lo impo
 import { TasksItemComponent } from './componentes/tasks-item/tasks-item.component'; //Lo importó directamente vsc
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';  // Lo importó directamente vsc
 import { HttpClientModule } from '@angular/common/http';
+import { AddTaskComponent } from './componentes/add-task/add-task.component';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
     HeaderComponent, // Lo registró automáticamente vsc
     ButtonComponent, // Lo registró automáticamente vsc
     TasksComponent,  // Lo registró automáticamente vsc
-    TasksItemComponent // Lo registró automáticamente vsc
+    TasksItemComponent, AddTaskComponent // Lo registró automáticamente vsc
     
   ],
   imports: [

@@ -4,12 +4,6 @@
       "id": 2,
       "text": "ir a la dietética",
       "day": "algún día",
-      "reminder": true
-    },
-    {
-      "id": 3,
-      "text": "Hacer portafolio",
-      "day": "primera semana de abril",
       "reminder": false
     },
     {
@@ -17,6 +11,12 @@
       "text": "ver serial experiment lain",
       "day": "Abril 02 a las 22 hs",
       "reminder": false
+    },
+    {
+      "id": 5,
+      "text": "ir a la facultad",
+      "day": "Marzo 31 a las ",
+      "reminder": true
     }
   ]
 }
