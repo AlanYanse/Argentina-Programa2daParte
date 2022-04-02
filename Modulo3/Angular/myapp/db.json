@@ -17,6 +17,12 @@
       "text": "ir a la facultad",
       "day": "Marzo 31 a las ",
       "reminder": true
+    },
+    {
+      "text": "Terminar el módulo 3",
+      "day": "para mañana",
+      "reminder": true,
+      "id": 6
     }
   ]
 }
