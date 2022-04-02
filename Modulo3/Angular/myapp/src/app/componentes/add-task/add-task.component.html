@@ -1,4 +1,4 @@
-<form action="" class="add-form" (ngSubmit)="onSubmit()">
+<form action="" class="add-form" (ngSubmit)="onSubmit()" *ngIf="showAddTask">
     <div class="form-control" >
         <label for="text">Task</label>
         <input type="text" name="text" id="text" autocomplete="off" placeholder="Add Task Text" [(ngModel)] = "text">
