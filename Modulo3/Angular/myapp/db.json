@@ -4,13 +4,13 @@
       "id": 2,
       "text": "ir a la dietética",
       "day": "algún día",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 4,
       "text": "ver serial experiment lain",
       "day": "Abril 02 a las 22 hs",
-      "reminder": false
+      "reminder": true
     },
     {
       "id": 5,

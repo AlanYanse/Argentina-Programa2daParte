@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
 
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -11,6 +12,13 @@ import { TasksItemComponent } from './componentes/tasks-item/tasks-item.componen
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';  // Lo importó directamente vsc
 import { HttpClientModule } from '@angular/common/http';
 import { AddTaskComponent } from './componentes/add-task/add-task.component';
+import { AboutComponent } from './componentes/about/about.component';
+import { FooterComponent } from './componentes/footer/footer.component';
+
+const appRoutes: Routes = [
+  {path: "", component: TasksComponent},
+  {path: "about", component: AboutComponent}
+]
 
 
 @NgModule({
@@ -19,15 +27,15 @@ import { AddTaskComponent } from './componentes/add-task/add-task.component';
     HeaderComponent, // Lo registró automáticamente vsc
     ButtonComponent, // Lo registró automáticamente vsc
     TasksComponent,  // Lo registró automáticamente vsc
-    TasksItemComponent, AddTaskComponent // Lo registró automáticamente vsc
+    TasksItemComponent, AddTaskComponent, AboutComponent, FooterComponent // Lo registró automáticamente vsc
     
   ],
   imports: [
     BrowserModule,
     FormsModule,
     FontAwesomeModule, // Lo registró automáticamente vsc
-    HttpClientModule
-    
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes, {enableTracing: true})
     
   ],
   providers: [
