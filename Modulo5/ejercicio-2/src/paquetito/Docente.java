@@ -4,6 +4,8 @@ public class Docente extends Persona {
 	
 	// ATRIBUTOS
 	
+	private Vehiculo vehiculo;
+	
 	// CONSTRUCTOR
 	
 	public Docente(String nombre, String apellido, int DNI, String materia) {
@@ -17,6 +19,16 @@ public class Docente extends Persona {
 	public void setPoneNota() {
 		
 		
+	}
+	
+	public void setVehiculo(Vehiculo vehiculo) {
+		
+		this.vehiculo = vehiculo;
+	}
+	
+	public Vehiculo getVehiculo() {
+		
+		return this.vehiculo;
 	}
 
 }
