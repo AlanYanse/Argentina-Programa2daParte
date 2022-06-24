@@ -5,13 +5,35 @@ public class EjemploPOO {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Auto auto1 = new Auto(1 , "AA111J", 5, "Rojo", true );
-
+		Camion camioncito;
+		Moto motito;
+		Vehiculo vehiculo = new Vehiculo(52445, 4, "Renault", "indefinido");
 		
+		camioncito = new Camion();
+		camioncito.setCantRuedas(4);
+		
+		motito = new Moto(1453, 2 , "Yamaha", "ZR200", 125);
+		
+		Auto auto1 = new Auto(6532 , 4 ,"Peugeot" , "206", 1 , "AA111J", 5, "Rojo", true );
 		Auto auto2 = new Auto();
+		
+		Vehiculo arrayVehiculos[] = new Vehiculo[4];
+		
+		arrayVehiculos[0] = vehiculo;
+		arrayVehiculos[1] = camioncito;
+		arrayVehiculos[2] = motito;
+		arrayVehiculos[3] = auto1;
+		
+		for(Vehiculo v : arrayVehiculos) {
+			
+			System.out.println(v.getMarca() + " " + v.getModelo());
+		}
 		
 		System.out.println(auto1.toString());
 		System.out.println(auto2.toString());
+		System.out.println("Auto 1 tiene registro " + auto1.getNumRegistro());
+		System.out.println("camioncito tiene " + camioncito.getCantRuedas() + " ruedas");
+		
 		
 		
 		
