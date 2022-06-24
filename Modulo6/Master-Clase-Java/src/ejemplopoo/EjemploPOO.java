@@ -5,13 +5,20 @@ public class EjemploPOO {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Auto auto1 = new Auto(1 , "AA111J", 5, "Rojo", true );
-
+		Camion camioncito;
 		
+		Auto auto1 = new Auto(6532 , 4 ,"Peugeot" , "206", 1 , "AA111J", 5, "Rojo", true );
 		Auto auto2 = new Auto();
+		
+		camioncito = new Camion();
+		camioncito.setCantRuedas(4);
+		
 		
 		System.out.println(auto1.toString());
 		System.out.println(auto2.toString());
+		System.out.println("Auto 1 tiene registro " + auto1.getNumRegistro());
+		System.out.println("camioncito tiene " + camioncito.getCantRuedas() + " ruedas");
+		
 		
 		
 		

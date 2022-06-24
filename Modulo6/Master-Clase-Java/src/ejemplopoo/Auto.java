@@ -1,6 +1,6 @@
 package ejemplopoo;
 
-public class Auto {
+public class Auto extends Vehiculo {
 	
 	private int id;
 	private String patente;
@@ -15,8 +15,9 @@ public class Auto {
 		
 	}
 	
-	public Auto(int id , String patente, int cantPuertas, String color, boolean cajaManual) {
+	public Auto(int numRegistro, int cantRuedas, String marca, String modelo , int id , String patente, int cantPuertas, String color, boolean cajaManual) {
 		
+		super(numRegistro, cantRuedas, marca, modelo);
 		this.id = id;
 		this.patente = patente;
 		this.cantPuertas = cantPuertas;
